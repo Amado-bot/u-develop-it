@@ -4,3 +4,9 @@ CREATE TABLE candidates (
   last_name VARCHAR(30) NOT NULL,
   industry_connected BOOLEAN NOT NULL
 );
+
+create table parties (
+  id INTERGER AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  description TEXT,
+);
